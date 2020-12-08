@@ -1,0 +1,22 @@
+version: "2"
+services:
+  jenkins:
+    container_name: jenkins
+    image: jenkinsci/blueocean
+    environment:
+      - DOCKER_TLS_CERTDIR=/certs
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+      - ./jenkins-docker-certs:/certs/client
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin/docker:/usr/local/bin/docker
+    user: root
+    networks:
+      - jenkins-network
+    ports:
+      - "8080:8080"
+      - "50001:50001"
+      - "9090:9090"
+      - "9191:9191"
+networks:
+  jenkins-network:
