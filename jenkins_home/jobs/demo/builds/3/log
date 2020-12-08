@@ -1,0 +1,69 @@
+Started by user [8mha:////4KkG1/+79y0o2lq0dFq7Mw6jjJigSEUbur7kXjTIAPuoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/ripo4ek/jenkins-docker-example.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4FizQqVuICGuYYeJqFfFIzOjq7vlGWDYWKPlvnH5lAZMAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IkUGf03tKM5dVyWKiFyB87Y+rrYB2ns/Xg4tWTlPCAOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N2ukIESodXt0IYHbw4KCNedhUYHeYN7UzAuDJhkUDIhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/demo
+[8mha:////4ND33oMyucgnk1xROo/WFM941ZR2TzGNfUrdzfp+6APkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PAQvVJlFVmkI8saLm9yvDxUX2kMd+8mPkex+3gxt8xSAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] stage
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Checkout
+Proceeding
+[8mha:////4HvOeuX9Ec03AZNjiSjpRH1qExPPTKs9jQzz3NEhniroAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/russmckendrick/jenkins-docker-example.git # timeout=10
+Fetching upstream changes from https://github.com/russmckendrick/jenkins-docker-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.26.2'
+ > git fetch --tags --force --progress -- https://github.com/russmckendrick/jenkins-docker-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bf6c4fbb01ea90d13f1a561f05b098227748524a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bf6c4fbb01ea90d13f1a561f05b098227748524a # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master bf6c4fbb01ea90d13f1a561f05b098227748524a # timeout=10
+Commit message: "Update package.json"
+ > git rev-list --no-walk bf6c4fbb01ea90d13f1a561f05b098227748524a # timeout=10
+[8mha:////4PrQmJagTwIzwgV2hS4bBTxQa471BXnnHXpy1LP9xdBHAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gB601hw7wAAAA=[0m[Pipeline] stage
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage build
+Proceeding
+[8mha:////4Io5R9pcGnO0nkQ1q4WBDyiRi5hAoXoGEdmQS0Q9rtThAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbWJgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gBJFH5RLwAAAA=[0m[Pipeline] isUnix
+[8mha:////4Pn1zhmOF/VEEZ6Cy2yt8ffD5XLx7f2Q6yH5GbvWAo4DAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTb2BhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED9lYOJdvAAAAA==[0m[Pipeline] sh
++ docker build -t mobycounter .
+Sending build context to Docker daemon  332.3kB
+Step 1/6 : FROM russmckendrick/nodejs
+ ---> fae0b0dead0c
+Step 2/6 : ADD src /srv/app
+ ---> Using cache
+ ---> 7388d5245059
+Step 3/6 : WORKDIR /srv/app
+ ---> Using cache
+ ---> b47006affa01
+Step 4/6 : RUN npm install
+ ---> Using cache
+ ---> 8e754db0cb04
+Step 5/6 : EXPOSE 80
+ ---> Using cache
+ ---> b2c9c03a96e7
+Step 6/6 : ENTRYPOINT ["node", "index.js"]
+ ---> Using cache
+ ---> 32bc2eb13a15
+Successfully built 32bc2eb13a15
+Successfully tagged mobycounter:latest
+[8mha:////4BvlHAT02e3O/yKC2nHVBOkal+u6ucw3aaR4/OuZ6FC3AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBVVhdU70AAAA=[0m[Pipeline] stage
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage deploy
+Proceeding
+[8mha:////4JcBPOtYL6l4UTzh5eZWs41f3eK1TW9cDLNsB2Lgoir8AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KExM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AFGlGSr0AAAA=[0m[Pipeline] sh
++ ./deploy.sh
+./deploy.sh: line 4: docker-compose: command not found
+[8mha:////4OqrtRdOnvE+7HEOKV/2+k4syaCZZmlIfnRwIS0doC5KAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B5XiFqL0AAAA=[0m[Pipeline] }
+[8mha:////4AHS0hMry0tOM5LUhKc9S24VwPgb9VmcrX+WbJDycbXHAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR/2xIELvQAAAA==[0m[Pipeline] // node
+[8mha:////4KhqcolW+EZm6aYe9KfhtxIG0p9ZMBaS3dCCTyGKy5tdAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBcCimzr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

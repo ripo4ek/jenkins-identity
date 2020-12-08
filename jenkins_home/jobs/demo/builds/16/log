@@ -1,0 +1,45 @@
+Started by user [8mha:////4KkG1/+79y0o2lq0dFq7Mw6jjJigSEUbur7kXjTIAPuoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/ripo4ek/jenkins-docker-example.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4FizQqVuICGuYYeJqFfFIzOjq7vlGWDYWKPlvnH5lAZMAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IkUGf03tKM5dVyWKiFyB87Y+rrYB2ns/Xg4tWTlPCAOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N2ukIESodXt0IYHbw4KCNedhUYHeYN7UzAuDJhkUDIhAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/demo
+[8mha:////4ND33oMyucgnk1xROo/WFM941ZR2TzGNfUrdzfp+6APkAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PAQvVJlFVmkI8saLm9yvDxUX2kMd+8mPkex+3gxt8xSAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] stage
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Checkout
+Proceeding
+[8mha:////4HvOeuX9Ec03AZNjiSjpRH1qExPPTKs9jQzz3NEhniroAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ripo4ek/jenkins-docker-example.git # timeout=10
+Fetching upstream changes from https://github.com/ripo4ek/jenkins-docker-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.26.2'
+ > git fetch --tags --force --progress -- https://github.com/ripo4ek/jenkins-docker-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3a4ec873aade42d550c9ad4a823a8976740d627f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3a4ec873aade42d550c9ad4a823a8976740d627f # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 3a4ec873aade42d550c9ad4a823a8976740d627f # timeout=10
+Commit message: "Update deploy.sh"
+ > git rev-list --no-walk 3a4ec873aade42d550c9ad4a823a8976740d627f # timeout=10
+[8mha:////4PrQmJagTwIzwgV2hS4bBTxQa471BXnnHXpy1LP9xdBHAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmFgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gB601hw7wAAAA=[0m[Pipeline] stage
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage deploy
+Proceeding
+[8mha:////4Io5R9pcGnO0nkQ1q4WBDyiRi5hAoXoGEdmQS0Q9rtThAAAAox+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbWJgYK1tC4wmQRYQl/7PAult5Iq/mHSRuYuUkk8yb5r3esM4JTpQs9wZ7h1k7HsNo6+ITpf4WaOKerlwTZgqGSzNJ6sx5QUnFwBLWwErAxqAOlB3aAlvh1UO1QaFtLyXV7yigcd0AT2CimotK5Qtzgt197DLhz/NXAHMswPa1h/gBJFH5RLwAAAA=[0m[Pipeline] sh
++ ./deploy.sh
+Error response from daemon: network with name app-network already exists
+376ff9830217ccf26cc5ce5b58029397292883d47336915fe802665e292dac69
+58d62d68ae781a1fa7af8cf76387f20160a638c1e5ed3aaa45c4ec3a9182ffce
+eeceb2260c8a7db6e894553493549acc7674104793a46c7d4f0b320a81c80d51
+[8mha:////4DvA6Gea6shjzmxSWBqGo6c0dJl7a+3vvTQjdmf0y3REAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTb2BhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/fywb5vAAAAA==[0m[Pipeline] }
+[8mha:////4MgARXNv79gBl3K9nzfvVquqRe6Nl+EAL/nQxiX6nHpWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBUSIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T8mviFMvQAAAA==[0m[Pipeline] // node
+[8mha:////4LNlnZPAfP5fo0ULkSLj9iVGmoVBMAfWYOaYFu1ajmvKAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMto6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K8LAXZ/gMAp0YGvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
