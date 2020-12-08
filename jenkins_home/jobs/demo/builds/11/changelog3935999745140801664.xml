@@ -1,9 +1,0 @@
-commit f71ea705280a29de484f9ea79c37da6a991bd9ce
-tree 7fcce1b82caedc6865a2fbc2020a0cf0840b542d
-parent 3b704a99c356be502f4cf9464b33a6fc6910940b
-author ripo4ek <Lyap-andr@yandex.ru> 2020-12-08 03:41:54 +0300
-committer GitHub <noreply@github.com> 2020-12-08 03:41:54 +0300
-
-    Update deploy.sh
-
-:100755 100755 eb28705deecd1fcc87211909c15a7de37965b01d 401feb78ecbd54672bf4325578330afac8974e17 M	deploy.sh
